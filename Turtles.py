@@ -30,9 +30,11 @@ bania_turtles['danelle'].setposition(-100, -100)
 for t in bania_turtles.values():
     t.pendown()
     t.begin_fill()
-    # triangles
-    for number in range(3):
-        t.forward(120)
+    # strange patterns
+    for number in range(2):
+        t.forward(100)
+        t.left(120)
+        t.forward(50)
         t.left(120)
     t.end_fill()
 screen.exitonclick()
