@@ -30,6 +30,7 @@ bania_turtles['danelle'].setposition(-100, -100)
 for t in bania_turtles.values():
     t.pendown()
     t.begin_fill()
+    # ZigZags
     for number in range(10):
         t.forward(50)
         t.left(150)
