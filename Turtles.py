@@ -30,12 +30,12 @@ bania_turtles['danelle'].setposition(-100, -100)
 for t in bania_turtles.values():
     t.pendown()
     t.begin_fill()
-    # ZigZags
-    for number in range(10):
+    # star of david  (6 sided star)
+    for number in range(6):
         t.forward(50)
-        t.left(150)
+        t.left(60)
         t.forward(50)
-        t.right(150)
+        t.right(120)
     t.end_fill()
 screen.exitonclick()
 screen.mainloop()
